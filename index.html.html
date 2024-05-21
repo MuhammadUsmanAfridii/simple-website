@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.top {
+    justify-content: center;
+    display: flex;
+    background-color:aliceblue;
+    height: 20px;
+}
+.limelight{
+justify-content:space-around;
+display: flex;
+background-color: black;
+height: 50px;
+color: white;
+font-size: 30px;
+align-items: center;
+}
+
+.flexitems{
+    display: flex;
+justify-content: flex-end;
+gap: 22px;
+width: 100%;
+height: 40px;
+font-size: 20px;
+align-items: center;
+}
+
+.mainflex{
+display: flex;
+background-color: gray;
+ align-items: center;
+}
+
+.flexitems a{
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+
+input{
+    width: 250px;
+}
+
+
+footer {
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Pushes footer to bottom of content or viewport */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section h4 {
+    margin-top: 0;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 0.9em;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    padding: 10px;
+    border-top: 1px solid #444;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+/* } */
+
+</style>
+    <title>limelight</title>
+
+</head>
+
+
+<body>
+
+<div class="top">
+FREE DELIVERY FOR ORDER ABOVE RS 2490 WITHIN PAKISTAN
+</div>
+
+<div class="limelight">
+    LIMELIGHT
+</div>
+<div class="mainflex">
+
+    <div class="search">
+        <input type="text" placeholder="Search.." name="Search">
+    </div>
+
+    <div class="flexitems">
+
+    <div><a href="">Women</a></div>
+    <div>
+        <a href="">Girl</a></div>
+    <div>
+        <a href="">Men</a></div>
+    <div>
+        <a href="">Accessories</a></div>
+    <div ">
+        <a style="color: red; href="">Sale</a></div>
+</div>
+</div>
+
+<img src="img1.jpg" alt="">
+
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: info@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2024 All Rights Reserved by <a href="#">Your Company</a>.</p>
+    </div>
+</footer>
+    
+</body>
+
+
+</html>
